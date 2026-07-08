@@ -252,4 +252,4 @@ SELECT rejection_reason, COUNT(*)
 FROM legalrank.staging.stg__rankings_rejected
 GROUP BY rejection_reason;
 ```
-
+Note : In Docs added architecture diagram with design change
