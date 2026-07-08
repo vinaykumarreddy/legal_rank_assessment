@@ -1,0 +1,871 @@
+practice_area_id,practice_group,practice_area,sub_practice_area,country,is_active
+PA0001,Corporate,Capital Markets,Debt Capital Markets,France,true
+PA0002,Energy & Infrastructure,Infrastructure,Utilities,Germany,true
+PA0003,Corporate,Corporate/M&A,Public M&A,Australia,true
+PA0004,Finance,Banking & Finance,Trade Finance,Sweden,true
+PA0005,IP & Technology,Intellectual Property,Copyright,Ireland,true
+PA0006,Dispute Resolution,Arbitration,International Arbitration,Spain,true
+PA0007,Competition,Competition & Antitrust,State Aid,Singapore,true
+PA0008,Tax,Tax,Corporate Tax,Hong Kong,true
+PA0009,Corporate,Capital Markets,Securitisation,Sweden,true
+PA0010,Finance,Banking & Finance,Acquisition Finance,Belgium,true
+PA0011,IP & Technology,Technology,Data Privacy & GDPR,Belgium,true
+PA0012,Energy & Infrastructure,Energy,Renewables,Japan,true
+PA0013,Energy & Infrastructure,Energy,Renewables,Belgium,true
+PA0014,Energy & Infrastructure,Infrastructure,Transport,Japan,true
+PA0015,IP & Technology,Intellectual Property,Copyright,Australia,true
+PA0016,Corporate,Corporate/M&A,Public M&A,UAE,true
+PA0017,Employment,Employment,Immigration,UAE,true
+PA0018,Corporate,Capital Markets,Equity Capital Markets,United Kingdom,true
+PA0019,Competition,Competition & Antitrust,Cartels,Hong Kong,true
+PA0020,Restructuring,Restructuring & Insolvency,Corporate Restructuring,Canada,true
+PA0021,Employment,Employment,Employment,Canada,true
+PA0022,Employment,Employment,Immigration,France,true
+PA0023,Employment,Employment,Immigration,Sweden,true
+PA0024,Finance,Banking & Finance,Trade Finance,Hong Kong,true
+PA0025,Employment,Employment,Pensions,Singapore,true
+PA0026,Competition,Competition & Antitrust,Abuse of Dominance,UAE,true
+PA0027,Finance,Structured Finance,Islamic Finance,Singapore,true
+PA0028,Real Estate,Real Estate,REITs,Sweden,true
+PA0029,IP & Technology,Technology,Cybersecurity,France,true
+PA0030,Dispute Resolution,Litigation,Class Actions,Spain,true
+PA0031,Real Estate,Real Estate,REITs,Spain,true
+PA0032,IP & Technology,Intellectual Property,Copyright,Hong Kong,true
+PA0033,Tax,Tax,VAT & Indirect Tax,Spain,true
+PA0034,Corporate,Corporate/M&A,Joint Ventures,Hong Kong,true
+PA0035,Real Estate,Real Estate,General Real Estate,Belgium,true
+PA0036,IP & Technology,Technology,TMT,Australia,true
+PA0037,Energy & Infrastructure,Energy,Renewables,UAE,true
+PA0038,Energy & Infrastructure,Energy,Mining,Ireland,true
+PA0039,Corporate,Corporate/M&A,Venture Capital,United States,true
+PA0040,Employment,Employment,Employment,France,true
+PA0041,Dispute Resolution,Litigation,Fraud & White Collar,Germany,true
+PA0042,Real Estate,Real Estate,REITs,France,true
+PA0043,Employment,Employment,Employment,Netherlands,true
+PA0044,Dispute Resolution,Litigation,Insurance Disputes,Netherlands,true
+PA0045,Real Estate,Real Estate,General Real Estate,Sweden,true
+PA0046,Corporate,Corporate/M&A,Joint Ventures,Netherlands,true
+PA0047,Energy & Infrastructure,Energy,Renewables,Australia,false
+PA0048,Competition,Competition & Antitrust,Abuse of Dominance,Japan,true
+PA0049,Real Estate,Real Estate,General Real Estate,Ireland,true
+PA0050,IP & Technology,Intellectual Property,Trademarks,Sweden,true
+PA0051,Competition,Competition & Antitrust,Merger Control,United States,true
+PA0052,Energy & Infrastructure,Infrastructure,PPP/PFI,UAE,true
+PA0053,Tax,Tax,International Tax,Japan,true
+PA0054,Restructuring,Restructuring & Insolvency,Corporate Restructuring,UAE,true
+PA0055,Competition,Competition & Antitrust,Merger Control,Canada,true
+PA0056,Real Estate,Real Estate,General Real Estate,Germany,true
+PA0057,Finance,Structured Finance,Asset Finance,Spain,true
+PA0058,Competition,Competition & Antitrust,Merger Control,Ireland,true
+PA0059,Restructuring,Restructuring & Insolvency,Insolvency,United Kingdom,true
+PA0060,IP & Technology,Intellectual Property,Patents,Sweden,true
+PA0061,Restructuring,Restructuring & Insolvency,Corporate Restructuring,Sweden,true
+PA0062,Real Estate,Real Estate,REITs,Australia,true
+PA0063,IP & Technology,Intellectual Property,Patents,Japan,true
+PA0064,Corporate,Capital Markets,Debt Capital Markets,Singapore,true
+PA0065,Employment,Employment,Employment,Sweden,true
+PA0066,Restructuring,Restructuring & Insolvency,Distressed Debt,Singapore,true
+PA0067,Tax,Tax,International Tax,Germany,true
+PA0068,Energy & Infrastructure,Energy,Mining,Sweden,true
+PA0069,Corporate,Capital Markets,Debt Capital Markets,UAE,true
+PA0070,Tax,Tax,VAT & Indirect Tax,Australia,true
+PA0071,Finance,Structured Finance,Derivatives,Hong Kong,true
+PA0072,IP & Technology,Technology,Data Privacy & GDPR,Hong Kong,true
+PA0073,Corporate,Capital Markets,Debt Capital Markets,Netherlands,true
+PA0074,Corporate,Capital Markets,IPOs,Ireland,true
+PA0075,Tax,Tax,Corporate Tax,Australia,true
+PA0076,Employment,Employment,Executive Compensation,Sweden,true
+PA0077,Dispute Resolution,Litigation,Fraud & White Collar,United States,true
+PA0078,IP & Technology,Intellectual Property,Trademarks,Spain,false
+PA0079,Energy & Infrastructure,Infrastructure,Transport,Netherlands,true
+PA0080,Energy & Infrastructure,Energy,Oil & Gas,Singapore,true
+PA0081,Real Estate,Real Estate,General Real Estate,Canada,true
+PA0082,Corporate,Capital Markets,Securitisation,Hong Kong,true
+PA0083,Corporate,Corporate/M&A,Joint Ventures,Ireland,false
+PA0084,Restructuring,Restructuring & Insolvency,Corporate Restructuring,Germany,true
+PA0085,Employment,Employment,Employment,Belgium,true
+PA0086,Corporate,Corporate/M&A,Venture Capital,Canada,true
+PA0087,Corporate,Corporate/M&A,Private Equity,United Kingdom,true
+PA0088,Energy & Infrastructure,Infrastructure,Utilities,United Kingdom,true
+PA0089,Dispute Resolution,Arbitration,Investor-State Arbitration,UAE,true
+PA0090,Real Estate,Real Estate,Construction,UAE,true
+PA0091,Competition,Competition & Antitrust,Merger Control,Japan,true
+PA0092,Corporate,Corporate/M&A,Joint Ventures,Australia,true
+PA0093,Energy & Infrastructure,Energy,Power,Australia,true
+PA0094,Corporate,Capital Markets,Securitisation,United States,true
+PA0095,Finance,Banking & Finance,Real Estate Finance,Germany,true
+PA0096,Finance,Structured Finance,Islamic Finance,Ireland,true
+PA0097,Finance,Structured Finance,Derivatives,Spain,true
+PA0098,Dispute Resolution,Litigation,Commercial Litigation,Japan,true
+PA0099,IP & Technology,Intellectual Property,Patents,Germany,true
+PA0100,Restructuring,Restructuring & Insolvency,Distressed Debt,Ireland,true
+PA0101,Real Estate,Real Estate,Planning & Environment,Netherlands,true
+PA0102,Corporate,Corporate/M&A,Private Equity,Canada,true
+PA0103,Employment,Employment,Pensions,Hong Kong,true
+PA0104,Finance,Banking & Finance,Acquisition Finance,Canada,true
+PA0105,IP & Technology,Intellectual Property,Trade Secrets,United Kingdom,true
+PA0106,Finance,Structured Finance,Islamic Finance,Japan,true
+PA0107,Corporate,Corporate/M&A,Venture Capital,Germany,true
+PA0108,Finance,Banking & Finance,Real Estate Finance,France,true
+PA0109,Finance,Banking & Finance,Trade Finance,Singapore,true
+PA0110,Finance,Structured Finance,Islamic Finance,Netherlands,true
+PA0111,Corporate,Corporate/M&A,Venture Capital,Ireland,true
+PA0112,Energy & Infrastructure,Infrastructure,Transport,Ireland,true
+PA0113,Corporate,Corporate/M&A,Public M&A,Ireland,true
+PA0114,Dispute Resolution,Arbitration,Construction Disputes,Canada,true
+PA0115,Employment,Employment,Pensions,Sweden,true
+PA0116,Energy & Infrastructure,Infrastructure,Utilities,UAE,false
+PA0117,Energy & Infrastructure,Infrastructure,Transport,Hong Kong,true
+PA0118,Finance,Banking & Finance,Real Estate Finance,Ireland,true
+PA0119,Energy & Infrastructure,Infrastructure,Utilities,France,true
+PA0120,Tax,Tax,VAT & Indirect Tax,Germany,true
+PA0121,Corporate,Capital Markets,Debt Capital Markets,Germany,true
+PA0122,Energy & Infrastructure,Infrastructure,Transport,Sweden,true
+PA0123,Finance,Structured Finance,Islamic Finance,France,true
+PA0124,IP & Technology,Intellectual Property,Trademarks,United Kingdom,true
+PA0125,Competition,Competition & Antitrust,Merger Control,France,true
+PA0126,Employment,Employment,Immigration,Spain,true
+PA0127,Real Estate,Real Estate,Construction,Japan,true
+PA0128,IP & Technology,Intellectual Property,Patents,Canada,true
+PA0129,Tax,Tax,Corporate Tax,Germany,true
+PA0130,Energy & Infrastructure,Energy,Power,Sweden,true
+PA0131,IP & Technology,Technology,Data Privacy & GDPR,Spain,true
+PA0132,Finance,Banking & Finance,Acquisition Finance,Netherlands,true
+PA0133,Real Estate,Real Estate,REITs,Japan,true
+PA0134,Competition,Competition & Antitrust,State Aid,United Kingdom,true
+PA0135,Finance,Banking & Finance,Leveraged Finance,UAE,true
+PA0136,Tax,Tax,Transfer Pricing,Sweden,false
+PA0137,Finance,Structured Finance,Derivatives,Sweden,true
+PA0138,Dispute Resolution,Arbitration,Investor-State Arbitration,Singapore,true
+PA0139,Tax,Tax,Transfer Pricing,United Kingdom,true
+PA0140,Finance,Banking & Finance,Real Estate Finance,Singapore,true
+PA0141,Dispute Resolution,Arbitration,Investor-State Arbitration,Sweden,true
+PA0142,IP & Technology,Technology,TMT,Ireland,true
+PA0143,Competition,Competition & Antitrust,Abuse of Dominance,Australia,true
+PA0144,Corporate,Capital Markets,IPOs,Belgium,true
+PA0145,Employment,Employment,Pensions,Ireland,true
+PA0146,Finance,Structured Finance,Derivatives,France,true
+PA0147,Restructuring,Restructuring & Insolvency,Corporate Restructuring,Belgium,true
+PA0148,Energy & Infrastructure,Energy,Renewables,Ireland,true
+PA0149,Restructuring,Restructuring & Insolvency,Distressed Debt,Belgium,true
+PA0150,Energy & Infrastructure,Energy,Renewables,Spain,true
+PA0151,Real Estate,Real Estate,REITs,Canada,true
+PA0152,Corporate,Corporate/M&A,Venture Capital,Spain,true
+PA0153,Competition,Competition & Antitrust,Merger Control,United Kingdom,true
+PA0154,Corporate,Corporate/M&A,Public M&A,United States,true
+PA0155,Restructuring,Restructuring & Insolvency,Corporate Restructuring,Japan,true
+PA0156,Dispute Resolution,Arbitration,Investor-State Arbitration,Germany,true
+PA0157,Competition,Competition & Antitrust,Cartels,Ireland,true
+PA0158,Employment,Employment,Pensions,Netherlands,true
+PA0159,Competition,Competition & Antitrust,Abuse of Dominance,United States,true
+PA0160,IP & Technology,Technology,Cybersecurity,Australia,true
+PA0161,Corporate,Corporate/M&A,Joint Ventures,Germany,true
+PA0162,Finance,Banking & Finance,Real Estate Finance,UAE,true
+PA0163,Dispute Resolution,Litigation,Class Actions,United States,true
+PA0164,Dispute Resolution,Arbitration,Investor-State Arbitration,United Kingdom,true
+PA0165,Restructuring,Restructuring & Insolvency,Insolvency,Netherlands,true
+PA0166,IP & Technology,Intellectual Property,Trademarks,Australia,true
+PA0167,Corporate,Capital Markets,Securitisation,United Kingdom,true
+PA0168,Dispute Resolution,Litigation,Class Actions,Singapore,true
+PA0169,IP & Technology,Technology,Fintech,Ireland,true
+PA0170,IP & Technology,Intellectual Property,Trade Secrets,Ireland,true
+PA0171,Tax,Tax,Transfer Pricing,Singapore,true
+PA0172,Energy & Infrastructure,Energy,Oil & Gas,Sweden,true
+PA0173,Tax,Tax,Transfer Pricing,Spain,true
+PA0174,Employment,Employment,Pensions,Japan,true
+PA0175,Finance,Banking & Finance,Real Estate Finance,Spain,true
+PA0176,Real Estate,Real Estate,REITs,UAE,true
+PA0177,Real Estate,Real Estate,Construction,Sweden,true
+PA0178,Employment,Employment,Pensions,France,true
+PA0179,Dispute Resolution,Litigation,Commercial Litigation,UAE,true
+PA0180,Finance,Banking & Finance,Real Estate Finance,Netherlands,true
+PA0181,Dispute Resolution,Litigation,Insurance Disputes,United Kingdom,true
+PA0182,Dispute Resolution,Litigation,Fraud & White Collar,Japan,true
+PA0183,Energy & Infrastructure,Energy,Renewables,France,true
+PA0184,Finance,Structured Finance,Derivatives,Australia,true
+PA0185,Restructuring,Restructuring & Insolvency,Corporate Restructuring,Netherlands,true
+PA0186,Energy & Infrastructure,Energy,Mining,Canada,true
+PA0187,IP & Technology,Intellectual Property,Copyright,Belgium,true
+PA0188,Competition,Competition & Antitrust,State Aid,Germany,true
+PA0189,Real Estate,Real Estate,REITs,Netherlands,true
+PA0190,Corporate,Corporate/M&A,Public M&A,Japan,false
+PA0191,Corporate,Corporate/M&A,Private Equity,Hong Kong,true
+PA0192,Corporate,Capital Markets,Equity Capital Markets,Singapore,true
+PA0193,Competition,Competition & Antitrust,State Aid,Ireland,true
+PA0194,Real Estate,Real Estate,Planning & Environment,Australia,true
+PA0195,IP & Technology,Intellectual Property,Trade Secrets,Spain,true
+PA0196,Energy & Infrastructure,Energy,Mining,Germany,true
+PA0197,Competition,Competition & Antitrust,State Aid,Hong Kong,true
+PA0198,Energy & Infrastructure,Infrastructure,PPP/PFI,Japan,true
+PA0199,Restructuring,Restructuring & Insolvency,Distressed Debt,Germany,true
+PA0200,Energy & Infrastructure,Energy,Power,Japan,true
+PA0201,Finance,Banking & Finance,Project Finance,Netherlands,true
+PA0202,Dispute Resolution,Litigation,Insurance Disputes,Sweden,true
+PA0203,Energy & Infrastructure,Energy,Renewables,Hong Kong,true
+PA0204,Finance,Banking & Finance,Project Finance,UAE,true
+PA0205,IP & Technology,Technology,TMT,Germany,true
+PA0206,Competition,Competition & Antitrust,State Aid,United States,true
+PA0207,Competition,Competition & Antitrust,Cartels,Singapore,true
+PA0208,IP & Technology,Intellectual Property,Trade Secrets,Australia,true
+PA0209,Tax,Tax,Transfer Pricing,France,true
+PA0210,Corporate,Corporate/M&A,General Corporate/M&A,Japan,true
+PA0211,Tax,Tax,International Tax,UAE,true
+PA0212,Employment,Employment,Immigration,Belgium,true
+PA0213,Dispute Resolution,Litigation,Class Actions,Germany,true
+PA0214,Real Estate,Real Estate,Construction,Australia,true
+PA0215,Corporate,Corporate/M&A,Joint Ventures,UAE,true
+PA0216,Finance,Banking & Finance,Project Finance,Sweden,true
+PA0217,Finance,Banking & Finance,Trade Finance,Spain,true
+PA0218,Restructuring,Restructuring & Insolvency,Distressed Debt,Sweden,true
+PA0219,Employment,Employment,Immigration,Ireland,false
+PA0220,Competition,Competition & Antitrust,State Aid,France,true
+PA0221,Tax,Tax,International Tax,Belgium,true
+PA0222,Corporate,Corporate/M&A,General Corporate/M&A,Germany,true
+PA0223,Finance,Structured Finance,Derivatives,Canada,true
+PA0224,Employment,Employment,Executive Compensation,United Kingdom,true
+PA0225,Dispute Resolution,Arbitration,Investor-State Arbitration,Belgium,true
+PA0226,IP & Technology,Intellectual Property,Trademarks,Canada,true
+PA0227,Employment,Employment,Immigration,Singapore,true
+PA0228,Tax,Tax,International Tax,United States,true
+PA0229,Finance,Banking & Finance,Leveraged Finance,Japan,true
+PA0230,Corporate,Capital Markets,Securitisation,Netherlands,true
+PA0231,Dispute Resolution,Arbitration,Investor-State Arbitration,Australia,true
+PA0232,Competition,Competition & Antitrust,State Aid,Spain,true
+PA0233,Employment,Employment,Immigration,Netherlands,true
+PA0234,Tax,Tax,Transfer Pricing,United States,true
+PA0235,Dispute Resolution,Arbitration,Investor-State Arbitration,Ireland,true
+PA0236,Corporate,Corporate/M&A,General Corporate/M&A,Hong Kong,true
+PA0237,Dispute Resolution,Arbitration,Investor-State Arbitration,United States,true
+PA0238,Corporate,Capital Markets,IPOs,Canada,true
+PA0239,Restructuring,Restructuring & Insolvency,Distressed Debt,France,true
+PA0240,Finance,Banking & Finance,Real Estate Finance,Hong Kong,true
+PA0241,IP & Technology,Intellectual Property,Patents,United States,true
+PA0242,Energy & Infrastructure,Infrastructure,Transport,Spain,true
+PA0243,Restructuring,Restructuring & Insolvency,Corporate Restructuring,United States,true
+PA0244,Dispute Resolution,Arbitration,International Arbitration,Australia,true
+PA0245,Dispute Resolution,Litigation,Commercial Litigation,Canada,true
+PA0246,Real Estate,Real Estate,General Real Estate,Spain,true
+PA0247,Corporate,Capital Markets,Equity Capital Markets,Germany,true
+PA0248,Finance,Banking & Finance,Leveraged Finance,Singapore,true
+PA0249,Dispute Resolution,Arbitration,International Arbitration,UAE,true
+PA0250,Energy & Infrastructure,Energy,Oil & Gas,Japan,true
+PA0251,Finance,Banking & Finance,Leveraged Finance,Netherlands,true
+PA0252,Tax,Tax,International Tax,Hong Kong,true
+PA0253,Competition,Competition & Antitrust,Abuse of Dominance,Sweden,true
+PA0254,Dispute Resolution,Litigation,Insurance Disputes,Spain,true
+PA0255,Energy & Infrastructure,Energy,Renewables,Canada,true
+PA0256,Tax,Tax,Transfer Pricing,Ireland,true
+PA0257,Competition,Competition & Antitrust,Merger Control,Australia,true
+PA0258,Dispute Resolution,Litigation,Commercial Litigation,Netherlands,true
+PA0259,Dispute Resolution,Litigation,Insurance Disputes,UAE,true
+PA0260,Restructuring,Restructuring & Insolvency,Insolvency,Canada,true
+PA0261,Tax,Tax,VAT & Indirect Tax,UAE,true
+PA0262,Real Estate,Real Estate,REITs,United Kingdom,true
+PA0263,IP & Technology,Technology,Data Privacy & GDPR,Japan,true
+PA0264,Restructuring,Restructuring & Insolvency,Corporate Restructuring,United Kingdom,true
+PA0265,Energy & Infrastructure,Infrastructure,PPP/PFI,Spain,true
+PA0266,Finance,Banking & Finance,Acquisition Finance,Singapore,true
+PA0267,Dispute Resolution,Arbitration,Investor-State Arbitration,Hong Kong,true
+PA0268,Finance,Banking & Finance,Leveraged Finance,Sweden,true
+PA0269,IP & Technology,Technology,Data Privacy & GDPR,UAE,true
+PA0270,IP & Technology,Technology,Cybersecurity,Belgium,true
+PA0271,Employment,Employment,Executive Compensation,Germany,true
+PA0272,Real Estate,Real Estate,REITs,Singapore,true
+PA0273,IP & Technology,Intellectual Property,Copyright,Netherlands,true
+PA0274,IP & Technology,Technology,Fintech,United Kingdom,true
+PA0275,Tax,Tax,Transfer Pricing,Germany,true
+PA0276,IP & Technology,Technology,Cybersecurity,Netherlands,true
+PA0277,IP & Technology,Intellectual Property,Trademarks,Netherlands,true
+PA0278,Dispute Resolution,Litigation,Fraud & White Collar,UAE,true
+PA0279,Energy & Infrastructure,Energy,Oil & Gas,Netherlands,true
+PA0280,Tax,Tax,International Tax,Singapore,true
+PA0281,Finance,Structured Finance,Asset Finance,Belgium,true
+PA0282,Corporate,Corporate/M&A,General Corporate/M&A,Belgium,false
+PA0283,Tax,Tax,Corporate Tax,Belgium,true
+PA0284,IP & Technology,Technology,Fintech,Sweden,true
+PA0285,Finance,Banking & Finance,Acquisition Finance,Hong Kong,true
+PA0286,Real Estate,Real Estate,Construction,Ireland,true
+PA0287,Corporate,Capital Markets,Equity Capital Markets,Japan,true
+PA0288,Real Estate,Real Estate,Planning & Environment,Sweden,true
+PA0289,Competition,Competition & Antitrust,Abuse of Dominance,United Kingdom,true
+PA0290,Dispute Resolution,Litigation,Class Actions,Hong Kong,true
+PA0291,Real Estate,Real Estate,Planning & Environment,Spain,true
+PA0292,Finance,Structured Finance,Derivatives,UAE,true
+PA0293,Competition,Competition & Antitrust,State Aid,Netherlands,true
+PA0294,Energy & Infrastructure,Energy,Mining,UAE,true
+PA0295,Energy & Infrastructure,Energy,Mining,Belgium,true
+PA0296,Employment,Employment,Employment,Hong Kong,true
+PA0297,Energy & Infrastructure,Energy,Renewables,Sweden,true
+PA0298,Competition,Competition & Antitrust,Merger Control,Sweden,true
+PA0299,Energy & Infrastructure,Energy,Power,France,true
+PA0300,Real Estate,Real Estate,REITs,Germany,true
+PA0301,Finance,Banking & Finance,Real Estate Finance,Canada,true
+PA0302,IP & Technology,Intellectual Property,Patents,Australia,true
+PA0303,IP & Technology,Intellectual Property,Trade Secrets,France,true
+PA0304,Dispute Resolution,Arbitration,Construction Disputes,Spain,true
+PA0305,IP & Technology,Technology,Data Privacy & GDPR,Ireland,true
+PA0306,Corporate,Corporate/M&A,General Corporate/M&A,United Kingdom,true
+PA0307,Finance,Structured Finance,Asset Finance,Ireland,true
+PA0308,Real Estate,Real Estate,General Real Estate,United States,true
+PA0309,Employment,Employment,Pensions,Spain,true
+PA0310,Real Estate,Real Estate,Construction,Canada,true
+PA0311,Finance,Structured Finance,Asset Finance,Singapore,true
+PA0312,Energy & Infrastructure,Infrastructure,Utilities,Hong Kong,true
+PA0313,Corporate,Corporate/M&A,General Corporate/M&A,UAE,true
+PA0314,Finance,Structured Finance,Derivatives,United States,true
+PA0315,Corporate,Corporate/M&A,Venture Capital,France,true
+PA0316,Corporate,Corporate/M&A,Joint Ventures,Canada,true
+PA0317,Competition,Competition & Antitrust,Cartels,United Kingdom,true
+PA0318,Dispute Resolution,Litigation,Insurance Disputes,Japan,true
+PA0319,IP & Technology,Technology,Fintech,UAE,true
+PA0320,IP & Technology,Intellectual Property,Trademarks,Singapore,true
+PA0321,IP & Technology,Intellectual Property,Trademarks,UAE,true
+PA0322,Finance,Banking & Finance,Real Estate Finance,Belgium,false
+PA0323,IP & Technology,Technology,Data Privacy & GDPR,Australia,true
+PA0324,IP & Technology,Intellectual Property,Patents,UAE,true
+PA0325,IP & Technology,Intellectual Property,Copyright,Germany,true
+PA0326,Finance,Banking & Finance,Trade Finance,Germany,true
+PA0327,Energy & Infrastructure,Infrastructure,PPP/PFI,Sweden,true
+PA0328,Employment,Employment,Executive Compensation,Belgium,true
+PA0329,Tax,Tax,Transfer Pricing,Netherlands,true
+PA0330,IP & Technology,Intellectual Property,Copyright,United States,true
+PA0331,Tax,Tax,International Tax,Australia,false
+PA0332,IP & Technology,Technology,Cybersecurity,United Kingdom,true
+PA0333,Finance,Banking & Finance,Leveraged Finance,Canada,true
+PA0334,Finance,Banking & Finance,Project Finance,Belgium,true
+PA0335,IP & Technology,Intellectual Property,Trade Secrets,Singapore,true
+PA0336,IP & Technology,Intellectual Property,Trade Secrets,Canada,true
+PA0337,Energy & Infrastructure,Energy,Mining,United Kingdom,true
+PA0338,Corporate,Corporate/M&A,Private Equity,United States,true
+PA0339,Competition,Competition & Antitrust,Cartels,UAE,true
+PA0340,Employment,Employment,Employment,United States,true
+PA0341,Restructuring,Restructuring & Insolvency,Corporate Restructuring,Ireland,true
+PA0342,Corporate,Capital Markets,Debt Capital Markets,Canada,true
+PA0343,Competition,Competition & Antitrust,Merger Control,Hong Kong,true
+PA0344,Finance,Banking & Finance,Project Finance,Singapore,true
+PA0345,Energy & Infrastructure,Infrastructure,PPP/PFI,Singapore,true
+PA0346,Corporate,Corporate/M&A,Private Equity,Singapore,true
+PA0347,Corporate,Corporate/M&A,Private Equity,Australia,true
+PA0348,Dispute Resolution,Litigation,Class Actions,Canada,true
+PA0349,Finance,Banking & Finance,Leveraged Finance,Belgium,true
+PA0350,Dispute Resolution,Litigation,Commercial Litigation,United States,false
+PA0351,Finance,Structured Finance,Derivatives,Japan,true
+PA0352,IP & Technology,Technology,TMT,Spain,true
+PA0353,Real Estate,Real Estate,General Real Estate,Japan,true
+PA0354,Competition,Competition & Antitrust,Abuse of Dominance,Canada,true
+PA0355,Competition,Competition & Antitrust,State Aid,UAE,true
+PA0356,Finance,Banking & Finance,Project Finance,France,true
+PA0357,Dispute Resolution,Litigation,Commercial Litigation,United Kingdom,true
+PA0358,Tax,Tax,Transfer Pricing,Japan,true
+PA0359,Energy & Infrastructure,Energy,Oil & Gas,Belgium,true
+PA0360,Finance,Banking & Finance,Leveraged Finance,Germany,true
+PA0361,Energy & Infrastructure,Energy,Power,Hong Kong,true
+PA0362,Real Estate,Real Estate,Planning & Environment,Singapore,true
+PA0363,Energy & Infrastructure,Infrastructure,PPP/PFI,Hong Kong,true
+PA0364,Real Estate,Real Estate,Construction,United Kingdom,true
+PA0365,Tax,Tax,VAT & Indirect Tax,Ireland,true
+PA0366,Finance,Structured Finance,Asset Finance,France,true
+PA0367,Corporate,Corporate/M&A,Public M&A,Singapore,true
+PA0368,Energy & Infrastructure,Energy,Mining,Netherlands,true
+PA0369,Competition,Competition & Antitrust,Abuse of Dominance,Ireland,true
+PA0370,Tax,Tax,Corporate Tax,Sweden,true
+PA0371,Real Estate,Real Estate,General Real Estate,Australia,true
+PA0372,Corporate,Corporate/M&A,Public M&A,France,true
+PA0373,Energy & Infrastructure,Energy,Oil & Gas,Spain,true
+PA0374,Finance,Structured Finance,Asset Finance,Germany,false
+PA0375,Energy & Infrastructure,Energy,Power,UAE,true
+PA0376,IP & Technology,Technology,Cybersecurity,United States,true
+PA0377,Employment,Employment,Executive Compensation,United States,true
+PA0378,Competition,Competition & Antitrust,State Aid,Australia,true
+PA0379,Dispute Resolution,Arbitration,Construction Disputes,France,true
+PA0380,Corporate,Capital Markets,Equity Capital Markets,United States,true
+PA0381,Dispute Resolution,Litigation,Class Actions,United Kingdom,true
+PA0382,Corporate,Capital Markets,Equity Capital Markets,UAE,true
+PA0383,Finance,Banking & Finance,Leveraged Finance,Spain,true
+PA0384,Corporate,Capital Markets,IPOs,Hong Kong,true
+PA0385,IP & Technology,Intellectual Property,Copyright,Canada,true
+PA0386,Competition,Competition & Antitrust,State Aid,Japan,true
+PA0387,Dispute Resolution,Litigation,Fraud & White Collar,Australia,true
+PA0388,Employment,Employment,Immigration,Japan,true
+PA0389,Energy & Infrastructure,Energy,Power,Singapore,true
+PA0390,Tax,Tax,Corporate Tax,Singapore,true
+PA0391,Real Estate,Real Estate,General Real Estate,France,true
+PA0392,Finance,Banking & Finance,Real Estate Finance,Japan,true
+PA0393,Restructuring,Restructuring & Insolvency,Insolvency,Ireland,true
+PA0394,Employment,Employment,Employment,Spain,true
+PA0395,IP & Technology,Intellectual Property,Patents,Belgium,true
+PA0396,Finance,Structured Finance,Derivatives,Ireland,true
+PA0397,Employment,Employment,Executive Compensation,Singapore,true
+PA0398,Real Estate,Real Estate,General Real Estate,Hong Kong,true
+PA0399,Corporate,Capital Markets,Debt Capital Markets,United Kingdom,true
+PA0400,Corporate,Corporate/M&A,Venture Capital,United Kingdom,true
+PA0401,IP & Technology,Intellectual Property,Copyright,UAE,true
+PA0402,Real Estate,Real Estate,General Real Estate,Netherlands,true
+PA0403,IP & Technology,Technology,TMT,United States,true
+PA0404,Corporate,Capital Markets,Securitisation,Australia,true
+PA0405,Competition,Competition & Antitrust,Cartels,Japan,true
+PA0406,Real Estate,Real Estate,Planning & Environment,UAE,true
+PA0407,Competition,Competition & Antitrust,Merger Control,Germany,true
+PA0408,IP & Technology,Intellectual Property,Patents,United Kingdom,true
+PA0409,Real Estate,Real Estate,Planning & Environment,Japan,true
+PA0410,IP & Technology,Technology,Cybersecurity,UAE,true
+PA0411,Competition,Competition & Antitrust,Cartels,Australia,true
+PA0412,Competition,Competition & Antitrust,Cartels,Belgium,true
+PA0413,Real Estate,Real Estate,Construction,Germany,true
+PA0414,Corporate,Corporate/M&A,General Corporate/M&A,Australia,true
+PA0415,IP & Technology,Technology,Data Privacy & GDPR,Germany,true
+PA0416,Corporate,Capital Markets,Equity Capital Markets,Sweden,true
+PA0417,Finance,Banking & Finance,Trade Finance,Japan,true
+PA0418,IP & Technology,Intellectual Property,Trade Secrets,Sweden,true
+PA0419,Real Estate,Real Estate,REITs,United States,true
+PA0420,Employment,Employment,Employment,Singapore,true
+PA0421,Restructuring,Restructuring & Insolvency,Corporate Restructuring,Australia,true
+PA0422,Restructuring,Restructuring & Insolvency,Corporate Restructuring,Hong Kong,true
+PA0423,IP & Technology,Technology,Fintech,Australia,true
+PA0424,Employment,Employment,Employment,Ireland,true
+PA0425,IP & Technology,Intellectual Property,Trademarks,Germany,true
+PA0426,IP & Technology,Technology,Data Privacy & GDPR,Singapore,true
+PA0427,IP & Technology,Technology,TMT,United Kingdom,true
+PA0428,IP & Technology,Technology,Fintech,Spain,true
+PA0429,Tax,Tax,International Tax,Spain,true
+PA0430,Tax,Tax,VAT & Indirect Tax,Hong Kong,true
+PA0431,Real Estate,Real Estate,Construction,Hong Kong,true
+PA0432,Dispute Resolution,Litigation,Commercial Litigation,Hong Kong,true
+PA0433,Real Estate,Real Estate,REITs,Hong Kong,true
+PA0434,Energy & Infrastructure,Energy,Mining,Hong Kong,true
+PA0435,Corporate,Corporate/M&A,Venture Capital,Hong Kong,true
+PA0436,IP & Technology,Technology,Cybersecurity,Singapore,true
+PA0437,Energy & Infrastructure,Infrastructure,Utilities,Japan,true
+PA0438,Real Estate,Real Estate,General Real Estate,Singapore,true
+PA0439,IP & Technology,Intellectual Property,Copyright,Sweden,true
+PA0440,Corporate,Corporate/M&A,Private Equity,Ireland,true
+PA0441,IP & Technology,Technology,TMT,France,true
+PA0442,Restructuring,Restructuring & Insolvency,Insolvency,UAE,true
+PA0443,Finance,Banking & Finance,Acquisition Finance,Australia,true
+PA0444,Employment,Employment,Pensions,United States,true
+PA0445,Dispute Resolution,Litigation,Class Actions,France,true
+PA0446,Tax,Tax,VAT & Indirect Tax,Belgium,true
+PA0447,Finance,Banking & Finance,Leveraged Finance,France,true
+PA0448,Corporate,Capital Markets,Debt Capital Markets,Spain,true
+PA0449,Finance,Structured Finance,Asset Finance,Australia,true
+PA0450,Corporate,Corporate/M&A,Public M&A,Hong Kong,true
+PA0451,Tax,Tax,VAT & Indirect Tax,Netherlands,true
+PA0452,Employment,Employment,Immigration,Hong Kong,true
+PA0453,Energy & Infrastructure,Energy,Renewables,United States,true
+PA0454,Competition,Competition & Antitrust,Abuse of Dominance,Spain,true
+PA0455,Competition,Competition & Antitrust,Cartels,France,true
+PA0456,Restructuring,Restructuring & Insolvency,Distressed Debt,Spain,true
+PA0457,Energy & Infrastructure,Energy,Oil & Gas,Ireland,true
+PA0458,Corporate,Capital Markets,IPOs,UAE,true
+PA0459,Competition,Competition & Antitrust,Abuse of Dominance,Hong Kong,true
+PA0460,Dispute Resolution,Litigation,Insurance Disputes,Canada,true
+PA0461,Tax,Tax,Corporate Tax,United States,true
+PA0462,Competition,Competition & Antitrust,Merger Control,UAE,true
+PA0463,Finance,Banking & Finance,Acquisition Finance,Germany,true
+PA0464,IP & Technology,Technology,Fintech,United States,true
+PA0465,Dispute Resolution,Arbitration,International Arbitration,Singapore,true
+PA0466,Dispute Resolution,Litigation,Insurance Disputes,Hong Kong,true
+PA0467,IP & Technology,Technology,Fintech,Germany,true
+PA0468,Corporate,Capital Markets,IPOs,Australia,true
+PA0469,Dispute Resolution,Arbitration,Construction Disputes,Singapore,true
+PA0470,Corporate,Capital Markets,Debt Capital Markets,Japan,true
+PA0471,Competition,Competition & Antitrust,Cartels,Spain,true
+PA0472,Employment,Employment,Pensions,Australia,true
+PA0473,Corporate,Corporate/M&A,Public M&A,Germany,true
+PA0474,Dispute Resolution,Litigation,Commercial Litigation,Spain,true
+PA0475,Corporate,Corporate/M&A,Private Equity,Netherlands,true
+PA0476,Dispute Resolution,Litigation,Class Actions,Japan,true
+PA0477,Energy & Infrastructure,Infrastructure,Transport,Australia,true
+PA0478,Finance,Banking & Finance,Acquisition Finance,UAE,true
+PA0479,Real Estate,Real Estate,Planning & Environment,United States,true
+PA0480,Energy & Infrastructure,Energy,Power,United Kingdom,true
+PA0481,Employment,Employment,Executive Compensation,Japan,true
+PA0482,IP & Technology,Technology,TMT,UAE,true
+PA0483,Finance,Structured Finance,Islamic Finance,Spain,true
+PA0484,Finance,Structured Finance,Asset Finance,United States,true
+PA0485,Tax,Tax,Transfer Pricing,Canada,true
+PA0486,Employment,Employment,Immigration,United Kingdom,true
+PA0487,Dispute Resolution,Arbitration,Construction Disputes,Japan,true
+PA0488,Dispute Resolution,Litigation,Commercial Litigation,Ireland,true
+PA0489,Dispute Resolution,Litigation,Class Actions,Australia,true
+PA0490,IP & Technology,Intellectual Property,Trade Secrets,Netherlands,true
+PA0491,Tax,Tax,International Tax,United Kingdom,true
+PA0492,Corporate,Corporate/M&A,Joint Ventures,United Kingdom,true
+PA0493,Tax,Tax,Corporate Tax,Canada,true
+PA0494,Restructuring,Restructuring & Insolvency,Insolvency,France,true
+PA0495,Finance,Banking & Finance,Leveraged Finance,Hong Kong,true
+PA0496,Energy & Infrastructure,Infrastructure,PPP/PFI,Germany,true
+PA0497,Tax,Tax,Transfer Pricing,Australia,true
+PA0498,Dispute Resolution,Arbitration,International Arbitration,France,true
+PA0499,IP & Technology,Technology,Data Privacy & GDPR,Netherlands,true
+PA0500,Energy & Infrastructure,Infrastructure,PPP/PFI,Belgium,true
+PA0501,Finance,Structured Finance,Derivatives,Belgium,true
+PA0502,Dispute Resolution,Litigation,Insurance Disputes,Singapore,true
+PA0503,Corporate,Capital Markets,Securitisation,Singapore,true
+PA0504,Tax,Tax,Transfer Pricing,Hong Kong,true
+PA0505,Corporate,Corporate/M&A,Public M&A,Netherlands,true
+PA0506,Dispute Resolution,Litigation,Class Actions,UAE,true
+PA0507,Tax,Tax,Transfer Pricing,UAE,true
+PA0508,Finance,Structured Finance,Asset Finance,Japan,true
+PA0509,Corporate,Corporate/M&A,General Corporate/M&A,Spain,true
+PA0510,IP & Technology,Intellectual Property,Trade Secrets,Hong Kong,true
+PA0511,Energy & Infrastructure,Energy,Oil & Gas,Australia,true
+PA0512,Corporate,Capital Markets,Equity Capital Markets,Belgium,true
+PA0513,Dispute Resolution,Litigation,Fraud & White Collar,Hong Kong,true
+PA0514,Corporate,Corporate/M&A,Venture Capital,Singapore,true
+PA0515,Energy & Infrastructure,Infrastructure,Transport,Canada,true
+PA0516,Corporate,Corporate/M&A,Venture Capital,Australia,true
+PA0517,Employment,Employment,Employment,United Kingdom,true
+PA0518,Corporate,Capital Markets,Equity Capital Markets,Canada,true
+PA0519,Dispute Resolution,Litigation,Fraud & White Collar,Netherlands,true
+PA0520,Real Estate,Real Estate,REITs,Ireland,true
+PA0521,IP & Technology,Technology,Data Privacy & GDPR,Sweden,true
+PA0522,Restructuring,Restructuring & Insolvency,Insolvency,Australia,true
+PA0523,Dispute Resolution,Arbitration,International Arbitration,Germany,true
+PA0524,Energy & Infrastructure,Infrastructure,Utilities,Ireland,true
+PA0525,IP & Technology,Technology,Fintech,Japan,true
+PA0526,Finance,Banking & Finance,Project Finance,Australia,true
+PA0527,Real Estate,Real Estate,Planning & Environment,Hong Kong,true
+PA0528,Corporate,Corporate/M&A,Venture Capital,Sweden,true
+PA0529,IP & Technology,Intellectual Property,Patents,Singapore,true
+PA0530,IP & Technology,Intellectual Property,Trade Secrets,Germany,true
+PA0531,IP & Technology,Intellectual Property,Trade Secrets,Belgium,true
+PA0532,Finance,Banking & Finance,Trade Finance,Canada,true
+PA0533,Energy & Infrastructure,Energy,Power,Spain,true
+PA0534,Tax,Tax,VAT & Indirect Tax,Japan,true
+PA0535,Employment,Employment,Employment,Germany,true
+PA0536,Corporate,Corporate/M&A,Joint Ventures,United States,true
+PA0537,Dispute Resolution,Arbitration,Construction Disputes,United States,true
+PA0538,Dispute Resolution,Litigation,Commercial Litigation,Australia,true
+PA0539,Tax,Tax,Corporate Tax,Ireland,true
+PA0540,Finance,Banking & Finance,Leveraged Finance,Australia,true
+PA0541,Employment,Employment,Immigration,Canada,false
+PA0542,Finance,Banking & Finance,Acquisition Finance,Sweden,true
+PA0543,Dispute Resolution,Arbitration,International Arbitration,United Kingdom,true
+PA0544,Employment,Employment,Employment,UAE,true
+PA0545,Finance,Banking & Finance,Trade Finance,United Kingdom,true
+PA0546,Restructuring,Restructuring & Insolvency,Corporate Restructuring,Spain,true
+PA0547,Real Estate,Real Estate,Planning & Environment,Belgium,true
+PA0548,Corporate,Corporate/M&A,Private Equity,UAE,true
+PA0549,IP & Technology,Technology,Fintech,Singapore,true
+PA0550,Restructuring,Restructuring & Insolvency,Distressed Debt,Netherlands,true
+PA0551,Finance,Banking & Finance,Project Finance,Hong Kong,true
+PA0552,Restructuring,Restructuring & Insolvency,Distressed Debt,Canada,true
+PA0553,Dispute Resolution,Arbitration,International Arbitration,Hong Kong,true
+PA0554,Real Estate,Real Estate,Construction,Spain,true
+PA0555,Tax,Tax,VAT & Indirect Tax,Canada,true
+PA0556,Employment,Employment,Executive Compensation,Ireland,true
+PA0557,Energy & Infrastructure,Infrastructure,Utilities,Canada,true
+PA0558,Dispute Resolution,Litigation,Insurance Disputes,Germany,true
+PA0559,Energy & Infrastructure,Infrastructure,Transport,Singapore,true
+PA0560,IP & Technology,Technology,TMT,Canada,true
+PA0561,Finance,Banking & Finance,Leveraged Finance,Ireland,true
+PA0562,Employment,Employment,Executive Compensation,Australia,true
+PA0563,Dispute Resolution,Litigation,Insurance Disputes,Belgium,true
+PA0564,Finance,Banking & Finance,Trade Finance,Belgium,true
+PA0565,Energy & Infrastructure,Energy,Power,United States,true
+PA0566,Tax,Tax,VAT & Indirect Tax,Sweden,true
+PA0567,Dispute Resolution,Litigation,Fraud & White Collar,Canada,true
+PA0568,Dispute Resolution,Litigation,Fraud & White Collar,Belgium,true
+PA0569,Energy & Infrastructure,Infrastructure,Transport,France,true
+PA0570,Corporate,Corporate/M&A,General Corporate/M&A,Ireland,true
+PA0571,Corporate,Capital Markets,Securitisation,Ireland,true
+PA0572,Restructuring,Restructuring & Insolvency,Insolvency,Hong Kong,true
+PA0573,Finance,Structured Finance,Asset Finance,Hong Kong,true
+PA0574,Finance,Banking & Finance,Acquisition Finance,United States,true
+PA0575,Employment,Employment,Employment,Japan,true
+PA0576,Energy & Infrastructure,Infrastructure,PPP/PFI,Ireland,true
+PA0577,IP & Technology,Technology,Fintech,France,true
+PA0578,Corporate,Capital Markets,Securitisation,Belgium,true
+PA0579,Finance,Banking & Finance,Real Estate Finance,United Kingdom,true
+PA0580,Tax,Tax,International Tax,Canada,true
+PA0581,Corporate,Capital Markets,Equity Capital Markets,Netherlands,true
+PA0582,Finance,Structured Finance,Derivatives,United Kingdom,true
+PA0583,Corporate,Corporate/M&A,Joint Ventures,France,true
+PA0584,IP & Technology,Technology,Cybersecurity,Canada,true
+PA0585,Dispute Resolution,Litigation,Commercial Litigation,Singapore,true
+PA0586,Energy & Infrastructure,Infrastructure,Utilities,United States,true
+PA0587,Energy & Infrastructure,Energy,Oil & Gas,France,true
+PA0588,Corporate,Capital Markets,Equity Capital Markets,Australia,true
+PA0589,Corporate,Capital Markets,IPOs,Germany,true
+PA0590,Tax,Tax,Corporate Tax,Netherlands,true
+PA0591,Competition,Competition & Antitrust,Abuse of Dominance,Singapore,true
+PA0592,Tax,Tax,Corporate Tax,UAE,true
+PA0593,IP & Technology,Technology,Fintech,Hong Kong,true
+PA0594,Dispute Resolution,Litigation,Insurance Disputes,France,true
+PA0595,Restructuring,Restructuring & Insolvency,Distressed Debt,UAE,true
+PA0596,IP & Technology,Technology,Data Privacy & GDPR,Canada,true
+PA0597,Employment,Employment,Executive Compensation,Hong Kong,true
+PA0598,Restructuring,Restructuring & Insolvency,Insolvency,United States,true
+PA0599,Corporate,Corporate/M&A,Venture Capital,UAE,true
+PA0600,Dispute Resolution,Litigation,Insurance Disputes,Ireland,true
+PA0601,IP & Technology,Technology,Cybersecurity,Hong Kong,true
+PA0602,Dispute Resolution,Arbitration,Investor-State Arbitration,Japan,true
+PA0603,Competition,Competition & Antitrust,Cartels,Germany,true
+PA0604,IP & Technology,Technology,Data Privacy & GDPR,United States,true
+PA0605,Restructuring,Restructuring & Insolvency,Corporate Restructuring,France,true
+PA0606,Corporate,Capital Markets,Debt Capital Markets,United States,true
+PA0607,Dispute Resolution,Arbitration,Investor-State Arbitration,France,true
+PA0608,Competition,Competition & Antitrust,Cartels,Canada,true
+PA0609,Finance,Structured Finance,Asset Finance,United Kingdom,true
+PA0610,Real Estate,Real Estate,General Real Estate,United Kingdom,true
+PA0611,Employment,Employment,Executive Compensation,Netherlands,true
+PA0612,Finance,Structured Finance,Islamic Finance,United Kingdom,true
+PA0613,Corporate,Corporate/M&A,Venture Capital,Belgium,true
+PA0614,Real Estate,Real Estate,Planning & Environment,France,true
+PA0615,Finance,Banking & Finance,Real Estate Finance,Australia,true
+PA0616,IP & Technology,Technology,TMT,Sweden,true
+PA0617,Dispute Resolution,Litigation,Class Actions,Ireland,true
+PA0618,Energy & Infrastructure,Energy,Power,Ireland,true
+PA0619,IP & Technology,Intellectual Property,Copyright,Singapore,true
+PA0620,Energy & Infrastructure,Infrastructure,Transport,United Kingdom,true
+PA0621,Corporate,Corporate/M&A,Public M&A,United Kingdom,true
+PA0622,Tax,Tax,Corporate Tax,Japan,true
+PA0623,Restructuring,Restructuring & Insolvency,Distressed Debt,United Kingdom,true
+PA0624,Energy & Infrastructure,Infrastructure,PPP/PFI,Netherlands,true
+PA0625,Employment,Employment,Executive Compensation,Canada,true
+PA0626,Restructuring,Restructuring & Insolvency,Corporate Restructuring,Singapore,true
+PA0627,Energy & Infrastructure,Energy,Mining,United States,true
+PA0628,Finance,Banking & Finance,Trade Finance,UAE,true
+PA0629,Energy & Infrastructure,Infrastructure,PPP/PFI,United Kingdom,false
+PA0630,Energy & Infrastructure,Energy,Power,Netherlands,true
+PA0631,Restructuring,Restructuring & Insolvency,Distressed Debt,Japan,true
+PA0632,Dispute Resolution,Arbitration,Construction Disputes,UAE,true
+PA0633,Tax,Tax,VAT & Indirect Tax,United Kingdom,true
+PA0634,Energy & Infrastructure,Energy,Mining,France,true
+PA0635,Corporate,Capital Markets,Securitisation,France,true
+PA0636,Dispute Resolution,Litigation,Fraud & White Collar,Singapore,true
+PA0637,Energy & Infrastructure,Energy,Renewables,Netherlands,true
+PA0638,Finance,Banking & Finance,Real Estate Finance,Sweden,true
+PA0639,Energy & Infrastructure,Energy,Mining,Australia,false
+PA0640,Dispute Resolution,Arbitration,International Arbitration,Belgium,true
+PA0641,Dispute Resolution,Arbitration,International Arbitration,United States,true
+PA0642,Competition,Competition & Antitrust,Abuse of Dominance,Germany,true
+PA0643,Dispute Resolution,Arbitration,Construction Disputes,Ireland,true
+PA0644,Competition,Competition & Antitrust,State Aid,Belgium,true
+PA0645,Finance,Banking & Finance,Project Finance,Germany,true
+PA0646,Finance,Banking & Finance,Project Finance,Canada,true
+PA0647,IP & Technology,Technology,TMT,Belgium,true
+PA0648,Energy & Infrastructure,Energy,Oil & Gas,United States,true
+PA0649,IP & Technology,Technology,Cybersecurity,Japan,true
+PA0650,Dispute Resolution,Litigation,Fraud & White Collar,United Kingdom,true
+PA0651,Corporate,Corporate/M&A,General Corporate/M&A,France,true
+PA0652,Energy & Infrastructure,Infrastructure,Transport,Germany,true
+PA0653,Restructuring,Restructuring & Insolvency,Distressed Debt,Australia,true
+PA0654,Dispute Resolution,Litigation,Fraud & White Collar,Spain,true
+PA0655,Employment,Employment,Pensions,Germany,true
+PA0656,IP & Technology,Technology,TMT,Netherlands,true
+PA0657,Finance,Structured Finance,Islamic Finance,Australia,true
+PA0658,IP & Technology,Intellectual Property,Trade Secrets,UAE,true
+PA0659,Employment,Employment,Immigration,United States,true
+PA0660,Finance,Banking & Finance,Project Finance,United States,true
+PA0661,Finance,Banking & Finance,Trade Finance,Ireland,true
+PA0662,Tax,Tax,Corporate Tax,Spain,true
+PA0663,Finance,Banking & Finance,Project Finance,Spain,true
+PA0664,Dispute Resolution,Litigation,Class Actions,Belgium,true
+PA0665,Dispute Resolution,Arbitration,Construction Disputes,Germany,true
+PA0666,Corporate,Corporate/M&A,Private Equity,Germany,true
+PA0667,Employment,Employment,Employment,Australia,true
+PA0668,Finance,Banking & Finance,Leveraged Finance,United Kingdom,true
+PA0669,IP & Technology,Intellectual Property,Copyright,United Kingdom,false
+PA0670,Corporate,Corporate/M&A,General Corporate/M&A,Netherlands,true
+PA0671,Employment,Employment,Executive Compensation,France,true
+PA0672,IP & Technology,Technology,Cybersecurity,Ireland,true
+PA0673,Corporate,Corporate/M&A,Joint Ventures,Singapore,true
+PA0674,Corporate,Corporate/M&A,Joint Ventures,Sweden,true
+PA0675,Competition,Competition & Antitrust,State Aid,Sweden,true
+PA0676,Energy & Infrastructure,Infrastructure,Transport,Belgium,true
+PA0677,Finance,Structured Finance,Islamic Finance,United States,true
+PA0678,IP & Technology,Intellectual Property,Trademarks,Belgium,true
+PA0679,Tax,Tax,International Tax,Ireland,true
+PA0680,Energy & Infrastructure,Energy,Renewables,United Kingdom,true
+PA0681,Competition,Competition & Antitrust,Merger Control,Spain,true
+PA0682,IP & Technology,Intellectual Property,Copyright,France,false
+PA0683,Employment,Employment,Immigration,Australia,true
+PA0684,Restructuring,Restructuring & Insolvency,Insolvency,Germany,true
+PA0685,Competition,Competition & Antitrust,Cartels,Netherlands,false
+PA0686,Finance,Banking & Finance,Trade Finance,Netherlands,true
+PA0687,Dispute Resolution,Litigation,Class Actions,Sweden,true
+PA0688,Restructuring,Restructuring & Insolvency,Insolvency,Spain,true
+PA0689,Energy & Infrastructure,Infrastructure,Transport,United States,true
+PA0690,Dispute Resolution,Litigation,Insurance Disputes,United States,true
+PA0691,Dispute Resolution,Arbitration,Construction Disputes,Belgium,true
+PA0692,Corporate,Capital Markets,Securitisation,Germany,true
+PA0693,Dispute Resolution,Arbitration,Construction Disputes,Sweden,true
+PA0694,Finance,Structured Finance,Derivatives,Netherlands,true
+PA0695,IP & Technology,Technology,Cybersecurity,Spain,true
+PA0696,Energy & Infrastructure,Infrastructure,PPP/PFI,France,true
+PA0697,Finance,Banking & Finance,Leveraged Finance,United States,true
+PA0698,Energy & Infrastructure,Energy,Oil & Gas,Hong Kong,true
+PA0699,Real Estate,Real Estate,Construction,Belgium,true
+PA0700,Dispute Resolution,Arbitration,International Arbitration,Sweden,true
+PA0701,Corporate,Capital Markets,Equity Capital Markets,Hong Kong,true
+PA0702,Energy & Infrastructure,Infrastructure,PPP/PFI,Australia,true
+PA0703,Energy & Infrastructure,Energy,Renewables,Germany,true
+PA0704,Finance,Banking & Finance,Trade Finance,Australia,true
+PA0705,Energy & Infrastructure,Energy,Oil & Gas,United Kingdom,true
+PA0706,Competition,Competition & Antitrust,Merger Control,Singapore,true
+PA0707,IP & Technology,Intellectual Property,Trade Secrets,United States,true
+PA0708,IP & Technology,Intellectual Property,Patents,Ireland,true
+PA0709,Finance,Banking & Finance,Trade Finance,France,true
+PA0710,Tax,Tax,International Tax,Sweden,false
+PA0711,Energy & Infrastructure,Energy,Renewables,Singapore,true
+PA0712,Corporate,Corporate/M&A,Public M&A,Spain,true
+PA0713,Corporate,Corporate/M&A,Joint Ventures,Belgium,true
+PA0714,Restructuring,Restructuring & Insolvency,Insolvency,Japan,true
+PA0715,Finance,Banking & Finance,Acquisition Finance,France,true
+PA0716,Dispute Resolution,Arbitration,Construction Disputes,Australia,true
+PA0717,Dispute Resolution,Litigation,Class Actions,Netherlands,true
+PA0718,Corporate,Capital Markets,Equity Capital Markets,France,true
+PA0719,Energy & Infrastructure,Energy,Mining,Japan,true
+PA0720,Dispute Resolution,Litigation,Commercial Litigation,Belgium,true
+PA0721,Finance,Structured Finance,Asset Finance,Canada,true
+PA0722,Dispute Resolution,Arbitration,International Arbitration,Ireland,true
+PA0723,Corporate,Capital Markets,IPOs,Singapore,true
+PA0724,Corporate,Corporate/M&A,Joint Ventures,Spain,true
+PA0725,Dispute Resolution,Arbitration,Construction Disputes,Hong Kong,true
+PA0726,Corporate,Corporate/M&A,Public M&A,Canada,true
+PA0727,Tax,Tax,VAT & Indirect Tax,United States,true
+PA0728,IP & Technology,Technology,Data Privacy & GDPR,United Kingdom,true
+PA0729,Finance,Banking & Finance,Acquisition Finance,Japan,true
+PA0730,Finance,Banking & Finance,Acquisition Finance,Spain,true
+PA0731,Corporate,Capital Markets,IPOs,Spain,false
+PA0732,IP & Technology,Intellectual Property,Copyright,Spain,true
+PA0733,Corporate,Corporate/M&A,Venture Capital,Japan,true
+PA0734,Restructuring,Restructuring & Insolvency,Insolvency,Belgium,true
+PA0735,Finance,Structured Finance,Islamic Finance,UAE,true
+PA0736,Dispute Resolution,Litigation,Insurance Disputes,Australia,false
+PA0737,IP & Technology,Intellectual Property,Trade Secrets,Japan,true
+PA0738,Corporate,Corporate/M&A,Venture Capital,Netherlands,true
+PA0739,Corporate,Corporate/M&A,General Corporate/M&A,Sweden,true
+PA0740,Energy & Infrastructure,Infrastructure,Utilities,Netherlands,true
+PA0741,Real Estate,Real Estate,Planning & Environment,Germany,true
+PA0742,Corporate,Capital Markets,IPOs,United Kingdom,true
+PA0743,Tax,Tax,Corporate Tax,France,true
+PA0744,Energy & Infrastructure,Infrastructure,Utilities,Australia,true
+PA0745,Corporate,Capital Markets,Equity Capital Markets,Spain,true
+PA0746,Corporate,Capital Markets,Equity Capital Markets,Ireland,true
+PA0747,IP & Technology,Intellectual Property,Trademarks,Ireland,true
+PA0748,Energy & Infrastructure,Infrastructure,Utilities,Spain,true
+PA0749,Tax,Tax,International Tax,France,true
+PA0750,Dispute Resolution,Litigation,Fraud & White Collar,Sweden,true
+PA0751,Corporate,Corporate/M&A,Public M&A,Belgium,true
+PA0752,Corporate,Capital Markets,Securitisation,Japan,true
+PA0753,IP & Technology,Intellectual Property,Copyright,Japan,true
+PA0754,Energy & Infrastructure,Energy,Power,Germany,true
+PA0755,Competition,Competition & Antitrust,Merger Control,Belgium,true
+PA0756,IP & Technology,Technology,TMT,Hong Kong,true
+PA0757,Real Estate,Real Estate,Planning & Environment,Ireland,true
+PA0758,IP & Technology,Intellectual Property,Patents,Netherlands,true
+PA0759,Employment,Employment,Pensions,Canada,true
+PA0760,Real Estate,Real Estate,REITs,Belgium,true
+PA0761,Dispute Resolution,Litigation,Commercial Litigation,Germany,true
+PA0762,IP & Technology,Intellectual Property,Trademarks,France,true
+PA0763,Energy & Infrastructure,Infrastructure,Utilities,Singapore,true
+PA0764,Finance,Banking & Finance,Real Estate Finance,United States,true
+PA0765,Corporate,Capital Markets,Debt Capital Markets,Belgium,true
+PA0766,Employment,Employment,Executive Compensation,Spain,true
+PA0767,Dispute Resolution,Arbitration,Investor-State Arbitration,Netherlands,true
+PA0768,Employment,Employment,Pensions,UAE,true
+PA0769,Finance,Structured Finance,Islamic Finance,Germany,true
+PA0770,Competition,Competition & Antitrust,Cartels,United States,true
+PA0771,Energy & Infrastructure,Energy,Oil & Gas,Germany,true
+PA0772,Corporate,Corporate/M&A,Private Equity,Sweden,true
+PA0773,Finance,Structured Finance,Asset Finance,Netherlands,true
+PA0774,Energy & Infrastructure,Energy,Oil & Gas,Canada,true
+PA0775,Energy & Infrastructure,Energy,Power,Belgium,true
+PA0776,Finance,Banking & Finance,Project Finance,United Kingdom,true
+PA0777,Corporate,Capital Markets,Securitisation,UAE,true
+PA0778,Real Estate,Real Estate,Construction,Singapore,true
+PA0779,Corporate,Corporate/M&A,General Corporate/M&A,United States,true
+PA0780,Corporate,Corporate/M&A,Private Equity,Spain,true
+PA0781,Energy & Infrastructure,Infrastructure,Utilities,Sweden,true
+PA0782,Finance,Structured Finance,Asset Finance,UAE,true
+PA0783,IP & Technology,Intellectual Property,Trademarks,Hong Kong,true
+PA0784,Corporate,Capital Markets,Securitisation,Canada,true
+PA0785,Corporate,Capital Markets,Debt Capital Markets,Australia,true
+PA0786,IP & Technology,Intellectual Property,Patents,France,true
+PA0787,Corporate,Corporate/M&A,General Corporate/M&A,Canada,true
+PA0788,Competition,Competition & Antitrust,Cartels,Sweden,true
+PA0789,Finance,Banking & Finance,Trade Finance,United States,true
+PA0790,Real Estate,Real Estate,Construction,France,true
+PA0791,Dispute Resolution,Litigation,Commercial Litigation,France,true
+PA0792,Employment,Employment,Pensions,United Kingdom,true
+PA0793,IP & Technology,Intellectual Property,Patents,Spain,true
+PA0794,Corporate,Capital Markets,IPOs,Sweden,true
+PA0795,Finance,Banking & Finance,Acquisition Finance,Ireland,true
+PA0796,Finance,Structured Finance,Asset Finance,Sweden,true
+PA0797,Corporate,Capital Markets,IPOs,France,true
+PA0798,Energy & Infrastructure,Energy,Oil & Gas,UAE,true
+PA0799,Restructuring,Restructuring & Insolvency,Distressed Debt,Hong Kong,true
+PA0800,Energy & Infrastructure,Infrastructure,PPP/PFI,United States,true
+PA0801,Corporate,Corporate/M&A,Private Equity,France,true
+PA0802,IP & Technology,Intellectual Property,Trademarks,United States,true
+PA0803,Dispute Resolution,Arbitration,International Arbitration,Canada,true
+PA0804,Finance,Structured Finance,Islamic Finance,Hong Kong,true
+PA0805,Competition,Competition & Antitrust,Abuse of Dominance,Netherlands,true
+PA0806,Corporate,Corporate/M&A,Joint Ventures,Japan,true
+PA0807,Energy & Infrastructure,Energy,Power,Canada,true
+PA0808,Restructuring,Restructuring & Insolvency,Distressed Debt,United States,true
+PA0809,Dispute Resolution,Arbitration,Investor-State Arbitration,Spain,true
+PA0810,Restructuring,Restructuring & Insolvency,Insolvency,Sweden,true
+PA0811,Energy & Infrastructure,Energy,Mining,Singapore,true
+PA0812,Employment,Employment,Executive Compensation,UAE,true
+PA0813,Corporate,Capital Markets,IPOs,United States,true
+PA0814,Corporate,Corporate/M&A,Public M&A,Sweden,true
+PA0815,Tax,Tax,VAT & Indirect Tax,France,true
+PA0816,IP & Technology,Technology,TMT,Singapore,true
+PA0817,Restructuring,Restructuring & Insolvency,Insolvency,Singapore,true
+PA0818,Corporate,Capital Markets,IPOs,Japan,true
+PA0819,IP & Technology,Technology,TMT,Japan,true
+PA0820,IP & Technology,Intellectual Property,Trademarks,Japan,true
+PA0821,Corporate,Capital Markets,Debt Capital Markets,Sweden,true
+PA0822,Corporate,Capital Markets,Debt Capital Markets,Hong Kong,true
+PA0823,Finance,Structured Finance,Islamic Finance,Sweden,true
+PA0824,Energy & Infrastructure,Infrastructure,PPP/PFI,Canada,false
+PA0825,IP & Technology,Technology,Cybersecurity,Germany,true
+PA0826,IP & Technology,Technology,Cybersecurity,Sweden,true
+PA0827,Tax,Tax,Corporate Tax,United Kingdom,true
+PA0828,Energy & Infrastructure,Infrastructure,Utilities,Belgium,true
+PA0829,Corporate,Corporate/M&A,Private Equity,Japan,true
+PA0830,Dispute Resolution,Arbitration,Construction Disputes,United Kingdom,true
+PA0831,Dispute Resolution,Arbitration,International Arbitration,Japan,false
+PA0832,IP & Technology,Technology,Fintech,Canada,true
+PA0833,Finance,Structured Finance,Islamic Finance,Canada,true
+PA0834,Real Estate,Real Estate,General Real Estate,UAE,true
+PA0835,Finance,Banking & Finance,Project Finance,Ireland,true
+PA0836,IP & Technology,Technology,Fintech,Belgium,true
+PA0837,Employment,Employment,Pensions,Belgium,true
+PA0838,Corporate,Capital Markets,IPOs,Netherlands,true
+PA0839,Finance,Structured Finance,Islamic Finance,Belgium,true
+PA0840,Corporate,Capital Markets,Debt Capital Markets,Ireland,true
+PA0841,Real Estate,Real Estate,Construction,Netherlands,true
+PA0842,Dispute Resolution,Arbitration,Construction Disputes,Netherlands,true
+PA0843,Competition,Competition & Antitrust,Abuse of Dominance,France,true
+PA0844,Competition,Competition & Antitrust,State Aid,Canada,true
+PA0845,Finance,Structured Finance,Derivatives,Singapore,true
+PA0846,IP & Technology,Intellectual Property,Patents,Hong Kong,true
+PA0847,Dispute Resolution,Litigation,Commercial Litigation,Sweden,true
+PA0848,Energy & Infrastructure,Energy,Mining,Spain,true
+PA0849,Finance,Banking & Finance,Acquisition Finance,United Kingdom,true
+PA0850,Corporate,Corporate/M&A,Private Equity,Belgium,false
+PA0851,Dispute Resolution,Arbitration,Investor-State Arbitration,Canada,true
+PA0852,Finance,Structured Finance,Derivatives,Germany,true
+PA0853,Finance,Banking & Finance,Project Finance,Japan,true
+PA0854,Employment,Employment,Immigration,Germany,true
+PA0855,Tax,Tax,VAT & Indirect Tax,Singapore,true
+PA0856,Real Estate,Real Estate,Planning & Environment,United Kingdom,true
+PA0857,Energy & Infrastructure,Infrastructure,Transport,UAE,true
+PA0858,Competition,Competition & Antitrust,Merger Control,Netherlands,true
+PA0859,IP & Technology,Technology,Fintech,Netherlands,true
+PA0860,IP & Technology,Technology,Data Privacy & GDPR,France,true
+PA0861,Dispute Resolution,Arbitration,International Arbitration,Netherlands,true
+PA0862,Dispute Resolution,Litigation,Fraud & White Collar,Ireland,true
+PA0863,Tax,Tax,Transfer Pricing,Belgium,true
+PA0864,Tax,Tax,International Tax,Netherlands,true
+PA0865,Dispute Resolution,Litigation,Fraud & White Collar,France,true
+PA0866,Real Estate,Real Estate,Planning & Environment,Canada,true
+PA0867,Real Estate,Real Estate,Construction,United States,true
+PA0868,Competition,Competition & Antitrust,Abuse of Dominance,Belgium,true
+PA0869,Corporate,Corporate/M&A,General Corporate/M&A,Singapore,true
+PA0870,Corporate,Capital Markets,Securitisation,Spain,true

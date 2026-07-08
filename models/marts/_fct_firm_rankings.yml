@@ -1,0 +1,54 @@
+version: 2
+
+models:
+  - name: fct_firm_rankings
+    description: >
+      Firm rankings mart feeding the "Top Tier Firms" client widget and
+      editorial reporting. Grain: one row per ranking_id, sourced directly
+      from int__rankings with two derived flags (is_published, is_top_tier)
+      added for the widget's consumption logic.
+    columns:
+      - name: ranking_id
+        description: Unique identifier for a ranking record (grain of this model).
+        tests:
+          - unique:
+              config:
+                severity: error
+          - not_null:
+              config:
+                severity: error
+
+      - name: is_published
+        description: True when post_status = 'publish'.
+
+      - name: is_top_tier
+        description: >
+          True when ranking_tier is 0 or 1, ranking_decision_status is
+          'ranked', and the post is published — the exact set of rows that
+          should count toward the "Top Tier Firms" widget total.
+        tests:
+          - not_null:
+              config:
+                severity: error
+
+    tests:
+      # Row-count floor: protects the widget from a silent data loss
+      # incident like the one described in the assessment (a schema
+      # migration that dropped 15% of rows). 900 is set comfortably below
+      # the current observed count (945 in int__rankings, ~914 ranked) to
+      # allow for normal week-to-week variation, while still catching a
+      # double-digit-percentage drop before it reaches the client widget.
+      - dbt_utils.expression_is_true:
+          arguments:
+            expression: "(select count(*) from {{ ref('fct_firm_rankings') }}) >= 900"
+          config:
+            severity: error
+
+      - elementary.volume_anomalies:
+          arguments:
+            time_bucket:
+              period: day
+              count: 1
+            anomaly_sensitivity: 3
+          config:
+            severity: error

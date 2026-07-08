@@ -1,0 +1,97 @@
+version: 2
+
+models:
+  - name: int__rankings
+    description: >
+      Rankings enriched with firm and practice area display names, with
+      ranking_decision_status derived from ranking_type, ranking_tier, and
+      post_status. Grain: one row per ranking_id — enrichment only, no
+      aggregation. Joins to stg__firms and stg__practice_areas are both
+      guaranteed non-duplicating since firm_ref and practice_area_id are
+      unique in their respective staging models.
+    columns:
+      - name: ranking_id
+        description: Unique identifier for a ranking record (grain of this model).
+        tests:
+          - unique:
+              config:
+                severity: error
+                # Confirms the left joins to firms/practice_areas did not fan
+                # out rows — a failure here means a join key uniqueness
+                # assumption has been violated upstream.
+          - not_null:
+              config:
+                severity: error
+
+      - name: edition_year
+        description: The publication year of the ranking edition.
+
+      - name: edition_id
+        description: Identifier for the specific country/edition combination.
+
+      - name: firm_country
+        description: Country of the ranked firm, resolved via join to stg__firms.
+
+      - name: firm_city
+        description: City of the ranked firm, resolved via join to stg__firms.
+
+      - name: firm_ref
+        description: Foreign key to the firm.
+
+      - name: firm_name
+        description: Display name of the firm, resolved via join to stg__firms.
+        tests:
+          - not_null:
+              config:
+                severity: warn
+                # Should always resolve given staging-layer firm_ref filtering.
+                # Warn rather than error since a NULL here points to an
+                # upstream data issue to investigate, not a broken pipeline.
+
+      - name: practice_area_id
+        description: Foreign key to the practice area.
+
+      - name: practice_group
+        description: >
+          Top-level practice group (e.g. Corporate, Finance), resolved via
+          join to stg__practice_areas.
+
+      - name: practice_area
+        description: Specific practice area within the practice group.
+
+      - name: sub_practice_area
+        description: Sub-specialty within the practice area.
+
+      - name: ranking_tier
+        description: Unified tier value (0-5).
+
+      - name: ranking_type
+        description: Normalised ranking type — 'firm recommended' or 'firm to watch'.
+
+      - name: listing_type
+        description: Optional paid/promotional listing tier. Nullable.
+
+      - name: commentary
+        description: Free-text editorial commentary, where provided. Nullable.
+
+      - name: post_status
+        description: Standardised publication status of the ranking post.
+
+      - name: publication_status
+        description: Internal editorial workflow status.
+
+      - name: ranking_decision_status
+        description: >
+          Derived field: 'not ranked' if firm recommended + tier 0, or if
+          firm to watch + tier 0 and not published; 'ranked' otherwise.
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['ranked', 'not ranked']
+              config:
+                severity: error
+                # Only two valid outcomes from the CASE logic — any other
+                # value means the derivation logic itself is broken.
+
+      - name: modified_ts
+        description: Timestamp of the last modification to the ranking record.

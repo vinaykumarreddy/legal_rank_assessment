@@ -1,0 +1,99 @@
+version: 2
+
+models:
+  - name: stg__submissions
+    description: >
+      Cleaned and deduplicated submissions data from the Postgres submissions
+      portal. Deduplicates on submission_id keeping the latest created_ts, and
+      filters out rows with invalid firm_ref (null or not present in the firms
+      master table).
+    columns:
+      - name: submission_id
+        description: Unique identifier for a submission.
+        tests:
+          - unique:
+              config:
+                severity: error
+                # Post-dedup, submission_id must be unique — a failure means
+                # the dedup logic itself has a bug.
+          - not_null:
+              config:
+                severity: error
+
+      - name: firm_ref
+        description: Foreign key to the firms master table.
+        tests:
+          - not_null:
+              config:
+                severity: error
+          - relationships:
+              arguments:
+                to: source('raw', 'raw_firms')
+                field: firm_ref
+              config:
+                severity: error
+
+      - name: practice_area_id
+        description: Foreign key to the practice areas taxonomy table.
+        tests:
+          - not_null:
+              config:
+                severity: error
+          - relationships:
+              arguments:
+                to: source('raw', 'raw_practice_areas')
+                field: practice_area_id
+              config:
+                severity: error
+
+      - name: status
+        description: Current review status of the submission.
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['submitted', 'in_review', 'approved', 'rejected']
+              config:
+                severity: error
+                # Fixed, known set of workflow states from the submissions portal.
+                # Any other value indicates a portal bug or new status we haven't
+                # accounted for — should block, not just warn.
+
+      - name: num_referees
+        description: Number of referees supporting the submission.
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 1
+                max_value: 20
+              config:
+                severity: warn
+                # Business expectation: submissions should have at least 1
+                # referee. Upper bound of 20 is a loose sanity check against
+                # data entry errors, not a hard business rule — hence warn.
+
+      - name: submitted_by_email
+        description: Email address of the submitter, lowercased.
+        tests:
+          - dbt_expectations.expect_column_values_to_match_regex:
+              arguments:
+                regex: '^[^@\s]+@[^@\s]+\.[^@\s]+$'
+              config:
+                severity: warn
+                # A handful of malformed emails exist in source. Not critical
+                # to pipeline correctness, so warn rather than block — but
+                # worth surfacing since it may indicate a portal validation gap.
+      - name: edition_year
+        description: The publication year this submission is intended for.
+
+      - name: submission_type
+        description: >
+          Type of submission (e.g. firm-submitted). All observed values are
+          'firm' in this dataset.
+
+      - name: submitted_at
+        description: Timestamp when the submission was originally submitted.
+
+      - name: created_ts
+        description: >
+          Timestamp when this record was created in the portal; used as the
+          dedup key to resolve duplicate submission_id rows.          

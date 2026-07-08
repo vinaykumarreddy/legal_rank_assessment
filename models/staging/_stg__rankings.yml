@@ -1,0 +1,188 @@
+version: 2
+
+models:
+  - name: stg__rankings
+    description: >
+      Cleaned and deduplicated rankings data from the CMS export. Unifies the
+      pre- and post-migration tier columns (ranking_tier, tier_rank) into a
+      single integer column, standardises casing on post_status and
+      ranking_type, deduplicates on ranking_id keeping the latest modified_ts,
+      and filters out rows with invalid firm_ref (null, placeholder '0', or
+      not present in the firms master table).
+    columns:
+      - name: ranking_id
+        description: Unique identifier for a ranking record.
+        tests:
+          - unique:
+              config:
+                severity: error
+                # Post-dedup, ranking_id must be unique. A failure here means
+                # our row_number() dedup logic has a bug — this is a correctness
+                # invariant, not a tolerable data issue.
+          - not_null:
+              config:
+                severity: error
+
+      - name: edition_year
+        description: The publication year of the ranking edition.
+        tests:
+          - not_null:
+              config:
+                severity: error
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 2020
+                max_value: 2030
+              config:
+                severity: warn
+                # Guards against garbage/typo years from source; 2020-2030 is a
+                # generous window around current editions (2024/2025 seen in data).
+
+      - name: edition_id
+        description: Identifier for the specific country/edition combination.
+        tests:
+          - not_null:
+              config:
+                severity: error
+
+      - name: firm_ref
+        description: >
+          Foreign key to the firms master table. Guaranteed non-null and
+          valid post-filtering in this model.
+        tests:
+          - not_null:
+              config:
+                severity: error
+          - relationships:
+              arguments:
+                to: source('raw', 'raw_firms')
+                field: firm_ref
+              config:
+                severity: error
+                # This should never fail given our WHERE clause already filters
+                # invalid firm_ref — but kept as a safety net in case the filter
+                # logic is ever changed without updating this test.
+
+      - name: practice_area_id
+        description: Foreign key to the practice areas taxonomy table.
+        tests:
+          - not_null:
+              config:
+                severity: error
+          - relationships:
+              arguments:
+                to: source('raw', 'raw_practice_areas')
+                field: practice_area_id
+              config:
+                severity: error
+
+      - name: ranking_tier
+        description: >
+          Unified tier value (0-5) derived from the pre-migration ranking_tier
+          column and the post-migration tier_rank column.
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                max_value: 5
+              config:
+                severity: error
+                # Business rule: tiers are 0-5 by definition. A value outside
+                # this range indicates a parsing bug or unexpected new source
+                # format — should block the pipeline.
+
+      - name: ranking_type
+        description: Normalised ranking type — 'firm recommended' or 'firm to watch'.
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['firm recommended', 'firm to watch']
+              config:
+                severity: error
+                # Downstream Task 3 logic branches explicitly on these two exact
+                # strings. Any other value means our normalisation CASE statement
+                # missed a variant and must be fixed before proceeding.
+
+      - name: post_status
+        description: Standardised (lowercased) publication status of the ranking post.
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['publish', 'draft', 'pending']
+              config:
+                severity: warn
+                # Known valid statuses post-standardisation. A new value could be
+                # a legitimate new CMS status we don't know about yet, so this
+                # warns rather than blocks — avoids halting the pipeline for a
+                # plausible upstream change.
+
+      - name: publication_status
+        description: >
+          Internal workflow status of the ranking (e.g. active, researching,
+          archive) as tracked by the CMS editorial process.
+
+      - name: listing_type
+        description: >
+          Optional paid/promotional listing tier for the firm (e.g. standard,
+          premium, sponsored). Nullable — most rankings have no listing type.
+
+      - name: commentary
+        description: >
+          Free-text editorial commentary about the firm's ranking, where
+          provided. Nullable.
+
+      - name: modified_ts
+        description: Timestamp of the last modification to the ranking record; used as dedup key.
+        tests:
+          - not_null:
+              config:
+                severity: error
+
+    tests:
+      - dbt_utils.recency:
+          arguments:
+            datepart: day
+            field: modified_ts
+            interval: 3
+          config:
+            severity: warn
+            # Elementary-adjacent freshness signal at the model level: if the
+            # most recent modified_ts is more than 3 days old, upstream sync is
+            # likely stalled. Warn only, since this assessment's data is static
+            # rather than truly live.
+
+      - elementary.volume_anomalies:
+          arguments:
+            time_bucket:
+              period: day
+              count: 1
+            anomaly_sensitivity: 3
+          config:
+            severity: warn
+    tests:
+      - dbt_utils.recency:
+          arguments:
+            datepart: day
+            field: modified_ts
+            interval: 3
+          config:
+            severity: warn
+
+      - elementary.volume_anomalies:
+          arguments:
+            time_bucket:
+              period: day
+              count: 1
+            anomaly_sensitivity: 3
+          config:
+            severity: warn
+
+      - elementary.schema_changes:
+          config:
+            severity: error
+            # Added directly to stg__rankings per task requirement. Fires
+            # when the underlying source columns are added, removed,
+            # renamed, or type-changed — this is the exact test that would
+            # have caught yesterday's incident (ranking_tier -> tier_rank
+            # rename, listing_type addition) before dbt run silently
+            # processed the changed schema.        

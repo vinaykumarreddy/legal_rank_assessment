@@ -1,0 +1,38 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: raw_rankings
+        config:
+          loaded_at_field: modified_ts
+          freshness:
+            warn_after:
+              count: 6
+              period: hour
+            error_after:
+              count: 10
+              period: hour
+        # If checked at/after 06:00 UTC (dbt run time), data last loaded
+        # more than 6 hours ago means the 02:00 UTC sync likely didn't
+        # land — warn gives ~1hr buffer before the 07:00 SLA to
+        # investigate. 10 hours means even the prior 20:00 UTC sync is
+        # also missing — two consecutive syncs failed, error/page.
+        
+
+      - name: raw_submissions
+        config:
+          loaded_at_field: created_ts
+          freshness:
+            warn_after:
+              count: 6
+              period: hour
+            error_after:
+              count: 10
+              period: hour
+        # Same sync schedule and reasoning as raw_rankings.
+
+      - name: raw_firms
+
+      - name: raw_practice_areas

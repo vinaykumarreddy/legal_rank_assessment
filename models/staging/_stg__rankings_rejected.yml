@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg__rankings_rejected
+    description: >
+      Control/error log table capturing rankings rows excluded by
+      stg__rankings' validity filter, tagged with rejection_reason.
+      Makes data-quality drops visible and auditable rather than silent.
+    columns:
+      - name: ranking_id
+        description: Identifier of the rejected ranking record.
+
+      - name: rejection_reason
+        description: >
+          Why the row was rejected — null_firm_ref, placeholder_firm_ref,
+          or orphaned_firm_ref.
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['null_firm_ref', 'placeholder_firm_ref', 'orphaned_firm_ref']
+              config:
+                severity: error
+
+      - name: logged_at
+        description: Timestamp when this row was logged to the control table.
